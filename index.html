@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" class="bg-base-200">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/55ad3149ce.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Home | Blue Grass Health Care</title>
+</head>
+
+<body>
+
+    <div class="container mx-auto my-5">
+
+        <!-- navbar -->
+        <div class="navbar mb-3 shadow-lg bg-neutral text-neutral-content rounded-box flex-wrap justify-between">
+            <div class="flex-none px-2 mx-2">
+                <span class="text-lg font-bold">
+                    BlueGrass Health Care
+                </span>
+            </div>
+            <div class="flex-none lg:hidden">
+                <button class="btn btn-square btn-ghost"
+                    onclick="document.querySelector('#menu').classList.toggle('hidden')">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        class="inline-block w-6 h-6 stroke-current">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id="menu" class="px-2 mx-2 hidden lg:flex w-[100%] lg:w-auto">
+                <div class="items-stretch flex lg:flex-row flex-col w-[100%] justify-center">
+                    <a class="btn btn-ghost btn-sm rounded-btn">
+                        Home
+                    </a>
+                    <a class="btn btn-ghost btn-sm rounded-btn">
+                        Portfolio
+                    </a>
+                    <a class="btn btn-ghost btn-sm rounded-btn">
+                        About
+                    </a>
+                    <a class="btn btn-ghost btn-sm rounded-btn">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid lg:grid-cols-12 grid-cols-1 gap-4">
+            <div class="lg:col-span-9">
+                <!-- banner -->
+                <div class="card shadow-xl mb-5 bg-base-100">
+                    <figure class="px-10 pt-10">
+                        <img src="https://picsum.photos/1300/300" class="rounded-xl">
+                    </figure>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam itaque voluptas eum commodi
+                            aspernatur
+                            deleniti iusto possimus minus, cum culpa rem quidem natus nulla? Fugit necessitatibus
+                            eveniet
+                            consequuntur illo recusandae eius omnis ex et asperiores unde atque excepturi rem sapiente
+                            debitis
+                            placeat, corporis aliquam doloremque consectetur mollitia ipsam. Fuga delectus numquam
+                            repellat
+                            laborum laudantium, nihil atque architecto inventore totam nemo vel harum a fugiat culpa sit
+                            aperiam
+                            repudiandae? Quod expedita dolorem odit placeat maiores atque blanditiis quae, vero vel,
+                            fuga ipsam,
+                            odio numquam? Eligendi consequatur natus at perferendis doloribus recusandae nisi dolorem
+                            eum
+                            molestiae, quas mollitia dolore commodi molestias delectus!</p>
+                    </div>
+                </div>
+
+                <!-- features -->
+                <div class="grid lg:grid-cols-3 grid-cols-1 gap-4">
+                    <div class="card shadow-xl bg-base-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Feature 1</h2>
+                            <p>Exercitationem eum quaerat amet quidem nam enim maxime ut natus,
+                                cum mollitia possimus? Quaerat sit perferendis minus earum voluptatibus, assumenda eos
+                                error? Quo porro commodi omnis tempore nemo, suscipit rem eius consequatur quaerat
+                                mollitia odio!</p>
+                        </div>
+                    </div>
+                    <div class="card shadow-xl bg-base-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Feature 2</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, voluptates! Non itaque
+                                temporibus enim dolore!</p>
+                        </div>
+                    </div>
+                    <div class="card shadow-xl bg-base-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Feature 3</h2>
+                            <p>Quaerat sit perferendis minus earum voluptatibus, assumenda eos
+                                error? Quo porro commodi omnis tempore nemo, suscipit rem eius consequatur quaerat
+                                mollitia odio!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:col-span-3 space-y-4">
+                <div class="card shadow-xl bg-base-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Search</h2>
+                        <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, dolore.</p>
+                        <div class="form-control">
+                            <div class="relative">
+                                <input type="text" placeholder="Search" class="w-full pr-16 input input-bordered">
+                                <button class="absolute top-0 right-0 rounded-l-none btn btn-secondary">go</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-xl bg-base-100">
+                    <div class="card-body">
+                        <h2 class="card-title">About Us</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi iste hic, delectus omnis
+                            repudiandae architecto iure illum culpa soluta ad.</p>
+                    </div>
+                </div>
+                <div class="card shadow-xl bg-base-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Follow Us</h2>
+                        <div class="flex gap-2">
+                            <a href="https://www.facebook.com/codeomelet" class="btn btn-square" target="_blank">
+                                <i class="fa-brands fa-facebook fa-2x"></i>
+                            </a>
+                            <a href="https://twitter.com/CodeOmelet67" class="btn btn-square" target="_blank">
+                                <i class="fa-brands fa-twitter fa-2x"></i>
+                            </a>
+                            <a href="https://www.instagram.com/codeomelet67/" class="btn btn-square" target="_blank">
+                                <i class="fa-brands fa-facebook fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="p-10 mt-12 footer bg-base-300 text-base-content footer-center">
+        <div>
+            <p>Copyright © 2021 - All right reserved by ACME Industries Ltd</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
